@@ -32,7 +32,7 @@ module adder4_tb;
 	 expected[3] = 5'd6;
 	 expected[4] = 5'd8;
 	 expected[5] = 5'd10;
-	 expected[6] = 5'12;
+	 expected[6] = 5'd12;
 	 expected[7] = 5'd0;
 
     testa[0] = 4'd0;
