@@ -28,12 +28,12 @@ module adder4_tb;
     // Initialize the expected array
     expected[0] = 5'd0;
     expected[1] = 5'd2;
-    expected[2] = 5'd30;
-    expected[3] = 5'd15;
-    expected[4] = 5'd0;
-    expected[5] = 5'd0;
-    expected[6] = 5'd0;
-    expected[7] = 5'd0;
+	 expected[2] = 5'd4;
+	 expected[3] = 5'd6;
+	 expected[4] = 5'd8;
+	 expected[5] = 5'd10;
+	 expected[6] = 5'12;
+	 expected[7] = 5'd0;
 
     testa[0] = 4'd0;
     testa[1] = 4'd1;
