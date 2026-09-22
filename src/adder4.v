@@ -11,12 +11,12 @@ module adder4(
 	      input [3:0]      a,
 	      input [3:0]      b,
 	      output [4:0] result);
-	wire [3:0]cout;
+	wire [2:0]cout;
 // add your code here -- you must use four instances of the full adder "fulladd", defined below
 	fulladd adder_0(a[0], b[0], 0, result[0], cout[0]);
 	fulladd adder_1(a[1], b[1], cout[0], result[1], cout[1]);
 	fulladd adder_2(a[2], b[2], cout[1], result[2], cout[2]);
-	fulladd adder_3(a[3], b[3], cout[2], result[3], cout[3]);
+	fulladd adder_3(a[3], b[3], cout[2], result[3], result[4]);
 endmodule
 
 module fulladd(
